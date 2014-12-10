@@ -12,186 +12,186 @@ System Info:
  Unique ID    : SIMULATOR_ID
  Device Name  : 
  Memory       : 1048576KiB
-10/12/14 14:33:27.277: [0xfa0] DEVICE: Initialising SURFACE
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: video driver: Quartz
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: hw_available: 0
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: wm_available: 1
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: bpp         : 32
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: blit_hw     : 0
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: video_mem   : 0
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: current_w   : 1280
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: current_h   : 800
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: ConfigureSDLVideo_real 0x0 fullscreen 0
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: requesting window: 800x600
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: SDL_HWSURFACE  : 0
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: SDL_ANYFORMAT  : 1
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: SDL_HWACCEL    : 0
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: SDL_ASYNCBLIT  : 0
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: SDL_DOUBLEBUF  : 0
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: SDL_FULLSCREEN : 0
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: SDL_RESIZABLE  : 1
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: SDL_OPENGL     : 0
-10/12/14 14:33:27.277: [0xa07361a8] SURFACE: calling SetVideoMode: 800x600 16 0x10000010
-10/12/14 14:33:27.357: [0xa07361a8] SURFACE: mallocd surface: 0x061ae000 800x600 pitch=3200
-10/12/14 14:33:27.357: [0xa07361a8] SURFACE: format = XBGR888 ptr = 0x061ae000, owned = 1, size = 1920000
-10/12/14 14:33:27.357: [0xa07361a8] SURFACE: direct copyup: 0 must_lock: 1
-10/12/14 14:33:27.357: [0xa07361a8] SURFACE: native: 800x600 (ptr: 0x05fd9000 pitch: 3200 bpp: 32)
-10/12/14 14:33:27.357: [0xa07361a8] SURFACE: bytes per pixel: 4 colorkey: 0 alpha: 255
-10/12/14 14:33:27.357: [0xa07361a8] SURFACE: RGBA shift:     8    16    24     0
-10/12/14 14:33:27.357: [0xa07361a8] SURFACE: RGBA loss :     0     0     0     8
-10/12/14 14:33:27.357: [0xa07361a8] SURFACE: RGBA mask : 0xff00 0xff0000 0xff000000   0x0
-10/12/14 14:33:27.357: [0xa07361a8] SURFACE: SDL_HWSURFACE  : 0
-10/12/14 14:33:27.357: [0xa07361a8] SURFACE: SDL_ANYFORMAT  : 0
-10/12/14 14:33:27.357: [0xa07361a8] SURFACE: SDL_HWACCEL    : 0
-10/12/14 14:33:27.357: [0xa07361a8] SURFACE: SDL_ASYNCBLIT  : 1
-10/12/14 14:33:27.357: [0xa07361a8] SURFACE: SDL_DOUBLEBUF  : 0
-10/12/14 14:33:27.358: [0xa07361a8] SURFACE: SDL_FULLSCREEN : 0
-10/12/14 14:33:27.358: [0xa07361a8] SURFACE: SDL_RESIZABLE  : 1
-10/12/14 14:33:27.358: [0xa07361a8] SURFACE: SDL_OPENGL     : 0
-10/12/14 14:33:27.358: [0xa07361a8] SURFACE: got dimensions from SDL_GetVideoSurface: 800 600
-10/12/14 14:33:27.358: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
-10/12/14 14:33:27.358: [0xfa0] SURFACE: s3eSurfaceSetup: does not match native type (requested=RGB565 native=XBGR888)
-10/12/14 14:33:27.358: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:3200 (800x600 p:1600) o:0
-10/12/14 14:33:27.358: [0xfa0] DEVICE: Initialising EXT
-10/12/14 14:33:27.358: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
-10/12/14 14:33:27.358: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
-10/12/14 14:33:27.358: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
-10/12/14 14:33:27.358: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
-10/12/14 14:33:27.358: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
-10/12/14 14:33:27.358: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
-10/12/14 14:33:27.358: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
-10/12/14 14:33:27.358: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: Location [0x7604d91e]
-10/12/14 14:33:27.359: [0xfa0] EXT: registering extension: OSXDataDirChange [0x48ecb37e]
-10/12/14 14:33:27.359: [0xfa0] DEVICE: Initialising CONFIG
-10/12/14 14:33:27.359: [0xfa0] DEVICE: Initialising TIMER
-10/12/14 14:33:27.359: [0xfa0] DEVICE: Initialising COMPRESSION
-10/12/14 14:33:27.359: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
-10/12/14 14:33:27.359: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
-10/12/14 14:33:27.359: [0xfa0] EXT: initializing extension: s3eWindow
-10/12/14 14:33:27.359: [0xfa0] EXT: initializing extension: s3eWindow 0x000a4ad0
-10/12/14 14:33:27.359: [0xfa0] DEVICE: SetupPaths: NULL
-10/12/14 14:33:27.359: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via" ]
-10/12/14 14:33:27.359: [0xfa0] LOADER: setting [commandline]  via=/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via
-10/12/14 14:33:27.359: [0xfa0] LOADER: parsing via file: /Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via
-10/12/14 14:33:27.359: [0xfa0] FILE: open: /Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via 0X9 0X0
-10/12/14 14:33:27.359: [0xfa0] FILE: s3eFileOpen('/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via', 'r') succeeded, id=1820808 p=0x001bc888
-10/12/14 14:33:27.359: [0xfa0] LOADER: reading 1849 bytes from via files
-10/12/14 14:33:27.359: [0xfa0] FILE: s3eFileClose h=0x001bc888
-10/12/14 14:33:27.359: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via"  --dll="/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt_d.s86"
+10/12/14 15:21:47.562: [0xfa0] DEVICE: Initialising SURFACE
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: video driver: Quartz
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: hw_available: 0
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: wm_available: 1
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: bpp         : 32
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: blit_hw     : 0
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: video_mem   : 0
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: current_w   : 1280
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: current_h   : 800
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: ConfigureSDLVideo_real 0x0 fullscreen 0
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: requesting window: 800x600
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: SDL_HWSURFACE  : 0
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: SDL_ANYFORMAT  : 1
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: SDL_HWACCEL    : 0
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: SDL_ASYNCBLIT  : 0
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: SDL_DOUBLEBUF  : 0
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: SDL_FULLSCREEN : 0
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: SDL_RESIZABLE  : 1
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: SDL_OPENGL     : 0
+10/12/14 15:21:47.562: [0xa07361a8] SURFACE: calling SetVideoMode: 800x600 16 0x10000010
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: mallocd surface: 0x06145000 800x600 pitch=3200
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: format = XBGR888 ptr = 0x06145000, owned = 1, size = 1920000
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: direct copyup: 0 must_lock: 1
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: native: 800x600 (ptr: 0x05f70000 pitch: 3200 bpp: 32)
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: bytes per pixel: 4 colorkey: 0 alpha: 255
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: RGBA shift:     8    16    24     0
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: RGBA loss :     0     0     0     8
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: RGBA mask : 0xff00 0xff0000 0xff000000   0x0
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: SDL_HWSURFACE  : 0
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: SDL_ANYFORMAT  : 0
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: SDL_HWACCEL    : 0
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: SDL_ASYNCBLIT  : 1
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: SDL_DOUBLEBUF  : 0
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: SDL_FULLSCREEN : 0
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: SDL_RESIZABLE  : 1
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: SDL_OPENGL     : 0
+10/12/14 15:21:47.672: [0xa07361a8] SURFACE: got dimensions from SDL_GetVideoSurface: 800 600
+10/12/14 15:21:47.672: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
+10/12/14 15:21:47.672: [0xfa0] SURFACE: s3eSurfaceSetup: does not match native type (requested=RGB565 native=XBGR888)
+10/12/14 15:21:47.672: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:3200 (800x600 p:1600) o:0
+10/12/14 15:21:47.673: [0xfa0] DEVICE: Initialising EXT
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: Location [0x7604d91e]
+10/12/14 15:21:47.673: [0xfa0] EXT: registering extension: OSXDataDirChange [0x48ecb37e]
+10/12/14 15:21:47.673: [0xfa0] DEVICE: Initialising CONFIG
+10/12/14 15:21:47.673: [0xfa0] DEVICE: Initialising TIMER
+10/12/14 15:21:47.673: [0xfa0] DEVICE: Initialising COMPRESSION
+10/12/14 15:21:47.673: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
+10/12/14 15:21:47.673: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
+10/12/14 15:21:47.673: [0xfa0] EXT: initializing extension: s3eWindow
+10/12/14 15:21:47.673: [0xfa0] EXT: initializing extension: s3eWindow 0x0003bad0
+10/12/14 15:21:47.673: [0xfa0] DEVICE: SetupPaths: NULL
+10/12/14 15:21:47.673: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via" ]
+10/12/14 15:21:47.673: [0xfa0] LOADER: setting [commandline]  via=/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via
+10/12/14 15:21:47.673: [0xfa0] LOADER: parsing via file: /Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via
+10/12/14 15:21:47.673: [0xfa0] FILE: open: /Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via 0X9 0X0
+10/12/14 15:21:47.673: [0xfa0] FILE: s3eFileOpen('/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via', 'r') succeeded, id=1390728 p=0x00153888
+10/12/14 15:21:47.674: [0xfa0] LOADER: reading 1849 bytes from via files
+10/12/14 15:21:47.674: [0xfa0] FILE: s3eFileClose h=0x00153888
+10/12/14 15:21:47.674: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via"  --dll="/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt_d.s86"
 --data="/User
-10/12/14 14:33:27.359: [0xfa0] LOADER: setting [commandline]  via=/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via
-10/12/14 14:33:27.359: [0xfa0] LOADER: setting [commandline]  dll=/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt_d.s86
-10/12/14 14:33:27.359: [0xfa0] LOADER: setting [commandline]  data=/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources
-10/12/14 14:33:27.359: [0xfa0] LOADER: setting [commandline]  checks3edir=1
-10/12/14 14:33:27.359: [0xfa0] LOADER: setting [commandline]  app-icf1=/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/common.icf
-10/12/14 14:33:27.359: [0xfa0] LOADER: setting [commandline]  app-icf2=/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/app.icf
-10/12/14 14:33:27.359: [0xfa0] LOADER: setting [commandline]  osx-ext-dll1=/Applications/Marmalade.app/Contents/extensions/s3eWebView/lib/osx/libs3eWebView.dylib
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  osx-ext-dll2=/Applications/Marmalade.app/Contents/extensions/s3eFlurry/lib/osx/libs3eFlurry.dylib
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  config-txt1=/Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  config-txt2=/Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  config-txt3=/Applications/Marmalade.app/Contents/quick/docs/app.config.txt
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  config-txt4=/Applications/Marmalade.app/Contents/quick/docs/billing.config.txt
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  config-txt5=/Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  config-txt6=/Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  config-txt7=/Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  config-txt8=/Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  config-txt9=/Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  config-txt10=/Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  config-txt11=/Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  config-txt12=/Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  config-txt13=/Applications/Marmalade.app/Contents/quick/docs/quick.config.txt
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  config-txt14=/Applications/Marmalade.app/Contents/s3e/s3e.config.txt
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  config-txt15=/Applications/Marmalade.app/Contents/s3e/s3e.config.txt
-10/12/14 14:33:27.360: [0xfa0] LOADER: setting [commandline]  s3e-dir=/Applications/Marmalade.app/Contents/s3e
-10/12/14 14:33:27.360: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-10/12/14 14:33:27.360: [0xfa0] FILE: fs[00]: system[rom://] '/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources'
-10/12/14 14:33:27.360: [0xfa0] FILE: fs[03]: system[raw://] ''
-10/12/14 14:33:27.360: [0xfa0] FILE: listed 2 active filesystems
-10/12/14 14:33:27.360: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-10/12/14 14:33:27.360: [0xfa0] FILE: fs[00]: system[rom://] '/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources'
-10/12/14 14:33:27.360: [0xfa0] FILE: fs[01]: system[ram://] '/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources-ram'
-10/12/14 14:33:27.360: [0xfa0] FILE: fs[03]: system[raw://] ''
-10/12/14 14:33:27.360: [0xfa0] FILE: listed 3 active filesystems
-10/12/14 14:33:27.362: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-10/12/14 14:33:27.362: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-10/12/14 14:33:27.362: [0xfa0] LOADER: Using data directory /Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources as ROM drive
-10/12/14 14:33:27.362: [0xfa0] LOADER: Using directory /Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources-ram as RAM drive
-10/12/14 14:33:27.362: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt 0X9 0X0
-10/12/14 14:33:27.362: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt', 'r') succeeded, id=1000 p=0x001be250
-10/12/14 14:33:27.362: [0xfa0] FILE: s3eFileClose h=0x001be250
-10/12/14 14:33:27.362: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt 0X9 0X0
-10/12/14 14:33:27.362: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1001 p=0x001be66c
-10/12/14 14:33:27.362: [0xfa0] FILE: s3eFileClose h=0x001be66c
-10/12/14 14:33:27.362: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/app.config.txt 0X9 0X0
-10/12/14 14:33:27.362: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/app.config.txt', 'r') succeeded, id=1002 p=0x001bea88
-10/12/14 14:33:27.362: [0xfa0] FILE: s3eFileClose h=0x001bea88
-10/12/14 14:33:27.362: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/billing.config.txt 0X9 0X0
-10/12/14 14:33:27.362: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/billing.config.txt', 'r') succeeded, id=1003 p=0x001beea4
-10/12/14 14:33:27.362: [0xfa0] FILE: s3eFileClose h=0x001beea4
-10/12/14 14:33:27.362: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt 0X9 0X0
-10/12/14 14:33:27.363: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt', 'r') succeeded, id=1004 p=0x001bf2c0
-10/12/14 14:33:27.363: [0xfa0] FILE: s3eFileClose h=0x001bf2c0
-10/12/14 14:33:27.363: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt 0X9 0X0
-10/12/14 14:33:27.363: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt', 'r') succeeded, id=1005 p=0x001bf6dc
-10/12/14 14:33:27.363: [0xfa0] FILE: s3eFileClose h=0x001bf6dc
-10/12/14 14:33:27.363: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt 0X9 0X0
-10/12/14 14:33:27.363: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt', 'r') succeeded, id=1006 p=0x001bfaf8
-10/12/14 14:33:27.364: [0xfa0] FILE: s3eFileClose h=0x001bfaf8
-10/12/14 14:33:27.364: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt 0X9 0X0
-10/12/14 14:33:27.364: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt', 'r') succeeded, id=1007 p=0x001bff14
-10/12/14 14:33:27.364: [0xfa0] FILE: s3eFileClose h=0x001bff14
-10/12/14 14:33:27.364: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt 0X9 0X0
-10/12/14 14:33:27.364: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt', 'r') succeeded, id=1008 p=0x001c0330
-10/12/14 14:33:27.364: [0xfa0] FILE: s3eFileClose h=0x001c0330
-10/12/14 14:33:27.364: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt 0X9 0X0
-10/12/14 14:33:27.364: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt', 'r') succeeded, id=1009 p=0x001c074c
-10/12/14 14:33:27.364: [0xfa0] FILE: s3eFileClose h=0x001c074c
-10/12/14 14:33:27.364: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt 0X9 0X0
-10/12/14 14:33:27.364: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt', 'r') succeeded, id=1010 p=0x001c0b68
-10/12/14 14:33:27.365: [0xfa0] FILE: s3eFileClose h=0x001c0b68
-10/12/14 14:33:27.365: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt 0X9 0X0
-10/12/14 14:33:27.365: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt', 'r') succeeded, id=1011 p=0x001c0f84
-10/12/14 14:33:27.365: [0xfa0] FILE: s3eFileClose h=0x001c0f84
-10/12/14 14:33:27.365: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/quick.config.txt 0X9 0X0
-10/12/14 14:33:27.365: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/quick.config.txt', 'r') succeeded, id=1012 p=0x001c13a0
-10/12/14 14:33:27.365: [0xfa0] FILE: s3eFileClose h=0x001c13a0
-10/12/14 14:33:27.365: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.config.txt 0X9 0X0
-10/12/14 14:33:27.365: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.config.txt', 'r') succeeded, id=1013 p=0x001c17bc
-10/12/14 14:33:27.371: [0xfa0] FILE: s3eFileClose h=0x001c17bc
-10/12/14 14:33:27.371: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.config.txt 0X9 0X0
-10/12/14 14:33:27.371: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.config.txt', 'r') succeeded, id=1014 p=0x001c1bd8
-10/12/14 14:33:27.384: [0xfa0] FILE: s3eFileClose h=0x001c1bd8
-10/12/14 14:33:27.384: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.icf 0X9 0X0
-10/12/14 14:33:27.384: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.icf', 'rb') succeeded, id=1015 p=0x001c1ff4
-10/12/14 14:33:27.384: [0xfa0] LOADER: Loading config from: /Applications/Marmalade.app/Contents/s3e/s3e.icf
-10/12/14 14:33:27.385: [0xfa0] FILE: s3eFileClose h=0x001c1ff4
-10/12/14 14:33:27.385: [0xfa0] LOADER: Loading app-icf from command line specified location /Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/common.icf
-10/12/14 14:33:27.385: [0xfa0] FILE: open: /Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/common.icf 0X9 0X0
-10/12/14 14:33:27.385: [0xfa0] FILE: s3eFileOpen('raw:///Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/common.icf', 'rb') succeeded, id=1016 p=0x001c2410
-10/12/14 14:33:27.385: [0xfa0] LOADER: Loading config from: raw:///Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/common.icf
-10/12/14 14:33:27.386: [0xfa0] FILE: s3eFileClose h=0x001c2410
-10/12/14 14:33:27.386: [0xfa0] FILE: open: /Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/app.icf 0X9 0X0
-10/12/14 14:33:27.386: [0xfa0] FILE: s3eFileOpen('raw:///Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/app.icf', 'rb') succeeded, id=1017 p=0x001c282c
-10/12/14 14:33:27.386: [0xfa0] LOADER: Loading config from: raw:///Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/app.icf
-10/12/14 14:33:27.386: [0xfa0] FILE: s3eFileClose h=0x001c282c
-10/12/14 14:33:27.386: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via" ]
-10/12/14 14:33:27.386: [0xfa0] LOADER: setting [commandline]  via=/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  via=/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  dll=/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt_d.s86
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  data=/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  checks3edir=1
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  app-icf1=/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/common.icf
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  app-icf2=/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/app.icf
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  osx-ext-dll1=/Applications/Marmalade.app/Contents/extensions/s3eWebView/lib/osx/libs3eWebView.dylib
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  osx-ext-dll2=/Applications/Marmalade.app/Contents/extensions/s3eFlurry/lib/osx/libs3eFlurry.dylib
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  config-txt1=/Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  config-txt2=/Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  config-txt3=/Applications/Marmalade.app/Contents/quick/docs/app.config.txt
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  config-txt4=/Applications/Marmalade.app/Contents/quick/docs/billing.config.txt
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  config-txt5=/Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  config-txt6=/Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  config-txt7=/Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  config-txt8=/Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  config-txt9=/Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  config-txt10=/Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  config-txt11=/Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  config-txt12=/Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  config-txt13=/Applications/Marmalade.app/Contents/quick/docs/quick.config.txt
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  config-txt14=/Applications/Marmalade.app/Contents/s3e/s3e.config.txt
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  config-txt15=/Applications/Marmalade.app/Contents/s3e/s3e.config.txt
+10/12/14 15:21:47.674: [0xfa0] LOADER: setting [commandline]  s3e-dir=/Applications/Marmalade.app/Contents/s3e
+10/12/14 15:21:47.674: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+10/12/14 15:21:47.674: [0xfa0] FILE: fs[00]: system[rom://] '/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources'
+10/12/14 15:21:47.674: [0xfa0] FILE: fs[03]: system[raw://] ''
+10/12/14 15:21:47.674: [0xfa0] FILE: listed 2 active filesystems
+10/12/14 15:21:47.674: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+10/12/14 15:21:47.674: [0xfa0] FILE: fs[00]: system[rom://] '/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources'
+10/12/14 15:21:47.674: [0xfa0] FILE: fs[01]: system[ram://] '/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources-ram'
+10/12/14 15:21:47.674: [0xfa0] FILE: fs[03]: system[raw://] ''
+10/12/14 15:21:47.674: [0xfa0] FILE: listed 3 active filesystems
+10/12/14 15:21:47.675: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+10/12/14 15:21:47.675: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+10/12/14 15:21:47.675: [0xfa0] LOADER: Using data directory /Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources as ROM drive
+10/12/14 15:21:47.675: [0xfa0] LOADER: Using directory /Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources-ram as RAM drive
+10/12/14 15:21:47.675: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt 0X9 0X0
+10/12/14 15:21:47.675: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt', 'r') succeeded, id=1000 p=0x00155250
+10/12/14 15:21:47.676: [0xfa0] FILE: s3eFileClose h=0x00155250
+10/12/14 15:21:47.676: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt 0X9 0X0
+10/12/14 15:21:47.676: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1001 p=0x0015566c
+10/12/14 15:21:47.676: [0xfa0] FILE: s3eFileClose h=0x0015566c
+10/12/14 15:21:47.676: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/app.config.txt 0X9 0X0
+10/12/14 15:21:47.676: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/app.config.txt', 'r') succeeded, id=1002 p=0x00155a88
+10/12/14 15:21:47.676: [0xfa0] FILE: s3eFileClose h=0x00155a88
+10/12/14 15:21:47.676: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/billing.config.txt 0X9 0X0
+10/12/14 15:21:47.676: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/billing.config.txt', 'r') succeeded, id=1003 p=0x00155ea4
+10/12/14 15:21:47.676: [0xfa0] FILE: s3eFileClose h=0x00155ea4
+10/12/14 15:21:47.676: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt 0X9 0X0
+10/12/14 15:21:47.676: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt', 'r') succeeded, id=1004 p=0x001562c0
+10/12/14 15:21:47.676: [0xfa0] FILE: s3eFileClose h=0x001562c0
+10/12/14 15:21:47.676: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt 0X9 0X0
+10/12/14 15:21:47.676: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt', 'r') succeeded, id=1005 p=0x001566dc
+10/12/14 15:21:47.676: [0xfa0] FILE: s3eFileClose h=0x001566dc
+10/12/14 15:21:47.676: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt 0X9 0X0
+10/12/14 15:21:47.676: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt', 'r') succeeded, id=1006 p=0x00156af8
+10/12/14 15:21:47.677: [0xfa0] FILE: s3eFileClose h=0x00156af8
+10/12/14 15:21:47.677: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt 0X9 0X0
+10/12/14 15:21:47.677: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt', 'r') succeeded, id=1007 p=0x00156f14
+10/12/14 15:21:47.677: [0xfa0] FILE: s3eFileClose h=0x00156f14
+10/12/14 15:21:47.677: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt 0X9 0X0
+10/12/14 15:21:47.677: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt', 'r') succeeded, id=1008 p=0x00157330
+10/12/14 15:21:47.677: [0xfa0] FILE: s3eFileClose h=0x00157330
+10/12/14 15:21:47.677: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt 0X9 0X0
+10/12/14 15:21:47.677: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt', 'r') succeeded, id=1009 p=0x0015774c
+10/12/14 15:21:47.677: [0xfa0] FILE: s3eFileClose h=0x0015774c
+10/12/14 15:21:47.677: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt 0X9 0X0
+10/12/14 15:21:47.677: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt', 'r') succeeded, id=1010 p=0x00157b68
+10/12/14 15:21:47.677: [0xfa0] FILE: s3eFileClose h=0x00157b68
+10/12/14 15:21:47.677: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt 0X9 0X0
+10/12/14 15:21:47.677: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt', 'r') succeeded, id=1011 p=0x00157f84
+10/12/14 15:21:47.678: [0xfa0] FILE: s3eFileClose h=0x00157f84
+10/12/14 15:21:47.678: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/quick.config.txt 0X9 0X0
+10/12/14 15:21:47.678: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/quick.config.txt', 'r') succeeded, id=1012 p=0x001583a0
+10/12/14 15:21:47.678: [0xfa0] FILE: s3eFileClose h=0x001583a0
+10/12/14 15:21:47.678: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.config.txt 0X9 0X0
+10/12/14 15:21:47.678: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.config.txt', 'r') succeeded, id=1013 p=0x001587bc
+10/12/14 15:21:47.683: [0xfa0] FILE: s3eFileClose h=0x001587bc
+10/12/14 15:21:47.683: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.config.txt 0X9 0X0
+10/12/14 15:21:47.683: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.config.txt', 'r') succeeded, id=1014 p=0x00158bd8
+10/12/14 15:21:47.689: [0xfa0] FILE: s3eFileClose h=0x00158bd8
+10/12/14 15:21:47.689: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.icf 0X9 0X0
+10/12/14 15:21:47.689: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.icf', 'rb') succeeded, id=1015 p=0x00158ff4
+10/12/14 15:21:47.689: [0xfa0] LOADER: Loading config from: /Applications/Marmalade.app/Contents/s3e/s3e.icf
+10/12/14 15:21:47.690: [0xfa0] FILE: s3eFileClose h=0x00158ff4
+10/12/14 15:21:47.690: [0xfa0] LOADER: Loading app-icf from command line specified location /Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/common.icf
+10/12/14 15:21:47.690: [0xfa0] FILE: open: /Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/common.icf 0X9 0X0
+10/12/14 15:21:47.690: [0xfa0] FILE: s3eFileOpen('raw:///Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/common.icf', 'rb') succeeded, id=1016 p=0x00159410
+10/12/14 15:21:47.690: [0xfa0] LOADER: Loading config from: raw:///Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/common.icf
+10/12/14 15:21:47.690: [0xfa0] FILE: s3eFileClose h=0x00159410
+10/12/14 15:21:47.690: [0xfa0] FILE: open: /Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/app.icf 0X9 0X0
+10/12/14 15:21:47.690: [0xfa0] FILE: s3eFileOpen('raw:///Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/app.icf', 'rb') succeeded, id=1017 p=0x0015982c
+10/12/14 15:21:47.691: [0xfa0] LOADER: Loading config from: raw:///Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/resources/app.icf
+10/12/14 15:21:47.691: [0xfa0] FILE: s3eFileClose h=0x0015982c
+10/12/14 15:21:47.691: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via" ]
+10/12/14 15:21:47.691: [0xfa0] LOADER: setting [commandline]  via=/Users/lukeohara/Desktop/marmalade_tutorials/flappyBeard/build_temp/flappyBeard_debug.via
 MarmaladeSDK v7.4.2 [409586] (S3E Loader v4.39.0)
 Copyright (C) 2001-2014 Marmalade Technologies Ltd.
 System Info:
@@ -203,60 +203,60 @@ System Info:
  Unique ID    : SIMULATOR_ID
  Device Name  : 
  Memory       : 1048576KiB
-10/12/14 14:33:27.431: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/extensions/s3eWebView/lib/osx/libs3eWebView_d.dylib' -> 0x7b034c60
-10/12/14 14:33:27.433: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/extensions/s3eFlurry/lib/osx/libs3eFlurry_d.dylib' -> 0x79e3afd0
-10/12/14 14:33:27.465: [0xfa0] GL: GLES desired version is 2
-10/12/14 14:33:27.465: [0xfa0] GL: DLL search path: /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2
-10/12/14 14:33:27.466: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libGLESv2.dylib' -> 0x7b230b80
-10/12/14 14:33:27.466: [0xfa0] GL: Loaded GL DLL /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libGLESv2.dylib
-10/12/14 14:33:27.466: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libEGL.dylib' -> 0x79f67e00
-10/12/14 14:33:27.466: [0xfa0] GL: Loaded GL DLL /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libEGL.dylib
-10/12/14 14:33:27.466: [0xfa0] GL: Using GLES 2
-10/12/14 14:33:27.517: [0xfa0] SPLASH: displaying debug splash-screen
-10/12/14 14:33:27.551: [0xfa0] LICENSE: LicenseType: ret true : output=Indie
-10/12/14 14:33:27.551: [0xfa0] SPLASH: No splash screen specified
-10/12/14 14:33:27.584: [0xfa0] LICENSE: LicenseType: ret true : output=Indie
-10/12/14 14:33:27.585: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt_d.s86' -> 0x7b039730
+10/12/14 15:21:47.747: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/extensions/s3eWebView/lib/osx/libs3eWebView_d.dylib' -> 0x7ae68ea0
+10/12/14 15:21:47.751: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/extensions/s3eFlurry/lib/osx/libs3eFlurry_d.dylib' -> 0x7ca56d40
+10/12/14 15:21:47.788: [0xfa0] GL: GLES desired version is 2
+10/12/14 15:21:47.788: [0xfa0] GL: DLL search path: /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2
+10/12/14 15:21:47.789: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libGLESv2.dylib' -> 0x7ae6eda0
+10/12/14 15:21:47.789: [0xfa0] GL: Loaded GL DLL /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libGLESv2.dylib
+10/12/14 15:21:47.789: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libEGL.dylib' -> 0x7ae6ee70
+10/12/14 15:21:47.789: [0xfa0] GL: Loaded GL DLL /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libEGL.dylib
+10/12/14 15:21:47.789: [0xfa0] GL: Using GLES 2
+10/12/14 15:21:47.844: [0xfa0] SPLASH: displaying debug splash-screen
+10/12/14 15:21:47.866: [0xfa0] LICENSE: LicenseType: ret true : output=Indie
+10/12/14 15:21:47.866: [0xfa0] SPLASH: No splash screen specified
+10/12/14 15:21:47.890: [0xfa0] LICENSE: LicenseType: ret true : output=Indie
+10/12/14 15:21:47.890: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt_d.s86' -> 0x7c887010
 COCOS2DX LOG: cocos2d: cocos2d-2.1beta3-x-2.1.0
-10/12/14 14:33:29.524: [0xfa0] IW_GL: EGL: eglGetDisplay returned 0x7b0375e0
-10/12/14 14:33:29.529: [0xfa0] GL: s3eEglInitialize: 0x7b0375e0 -> 1 1.4
-10/12/14 14:33:29.529: [0xfa0] IW_GL: eglInitialise succeeded - version 1.4
-10/12/14 14:33:29.529: [0xfa0] IW_GL: S3E_EGL_VERSION: 0103
-10/12/14 14:33:29.529: [0xfa0] IW_GL: S3E_GL_VERSION: 0200
-10/12/14 14:33:29.529: [0xfa0] IW_GL: EGL_VENDOR: Nokia Corporation
-10/12/14 14:33:29.529: [0xfa0] IW_GL: EGL_VERSION: 1.4 DGLES2-1.4.0
-10/12/14 14:33:29.529: [0xfa0] GL_CORE: rejecting config 0: EGL_DEPTH_SIZE < 16
-10/12/14 14:33:29.529: [0xfa0] GL_CORE: rejecting config 4: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-10/12/14 14:33:29.529: [0xfa0] GL_CORE: rejecting config 5: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-10/12/14 14:33:29.529: [0xfa0] GL_CORE: rejecting config 6: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-10/12/14 14:33:29.529: [0xfa0] GL_CORE: rejecting config 7: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
-10/12/14 14:33:29.530: [0xfa0] GL_CORE: EGL: Chose EGL_CONFIG_ID 2
-10/12/14 14:33:29.534: [0xfa0] GL: eglCreateContext: 0x79e2de80
-10/12/14 14:33:29.534: [0xfa0] GL: s3eGLGetNativeWindow_platform: main win=0x79e33200
-10/12/14 14:33:29.535: [0xfa0] GL: s3eGLGetNativeWindow_platform: 0x7b232970
-10/12/14 14:33:29.537: [0xfa0] IW_GL: GL_VENDOR: Intel Inc.
-10/12/14 14:33:29.537: [0xfa0] IW_GL: GL_RENDERER: Intel HD Graphics 4000 OpenGL Engine
-10/12/14 14:33:29.537: [0xfa0] IW_GL: GL_VERSION: 2.1 INTEL-8.28.30
-10/12/14 14:33:29.537: [0xfa0] IW_GL: GL properties reported by driver:
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 16
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_SHADER_COMPILER: 1
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_MAX_VERTEX_ATTRIBS: 16
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_MAX_VERTEX_UNIFORM_VECTORS: 4096
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_MAX_VARYING_VECTORS: 60
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_MAX_TEXTURE_IMAGE_UNITS: 16
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS: 16
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_MAX_FRAGMENT_UNIFORM_VECTORS: 4096
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_FORMAT: GL_RGBA
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_TYPE: GL_UNSIGNED_BYTE
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_MAX_RENDERBUFFER_SIZE: 16384
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_POINT_SIZE_MAX: 64
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_MAX_TEXTURE_SIZE: 16384
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_MAX_VIEWPORT_DIMS: (16384, 16384)
-10/12/14 14:33:29.537: [0xfa0] IW_GL: Supported GL_EXTENSIONS:
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_OES_packed_depth_stencil
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_EXT_texture_compression_s3tc
-10/12/14 14:33:29.537: [0xfa0] IW_GL:     GL_ARB_texture_env_combine
+10/12/14 15:21:49.854: [0xfa0] IW_GL: EGL: eglGetDisplay returned 0x7af4e2b0
+10/12/14 15:21:49.858: [0xfa0] GL: s3eEglInitialize: 0x7af4e2b0 -> 1 1.4
+10/12/14 15:21:49.858: [0xfa0] IW_GL: eglInitialise succeeded - version 1.4
+10/12/14 15:21:49.858: [0xfa0] IW_GL: S3E_EGL_VERSION: 0103
+10/12/14 15:21:49.858: [0xfa0] IW_GL: S3E_GL_VERSION: 0200
+10/12/14 15:21:49.858: [0xfa0] IW_GL: EGL_VENDOR: Nokia Corporation
+10/12/14 15:21:49.858: [0xfa0] IW_GL: EGL_VERSION: 1.4 DGLES2-1.4.0
+10/12/14 15:21:49.858: [0xfa0] GL_CORE: rejecting config 0: EGL_DEPTH_SIZE < 16
+10/12/14 15:21:49.858: [0xfa0] GL_CORE: rejecting config 4: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+10/12/14 15:21:49.858: [0xfa0] GL_CORE: rejecting config 5: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+10/12/14 15:21:49.858: [0xfa0] GL_CORE: rejecting config 6: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+10/12/14 15:21:49.858: [0xfa0] GL_CORE: rejecting config 7: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+10/12/14 15:21:49.858: [0xfa0] GL_CORE: EGL: Chose EGL_CONFIG_ID 2
+10/12/14 15:21:49.862: [0xfa0] GL: eglCreateContext: 0x7ae71f50
+10/12/14 15:21:49.862: [0xfa0] GL: s3eGLGetNativeWindow_platform: main win=0x7ae4d260
+10/12/14 15:21:49.863: [0xfa0] GL: s3eGLGetNativeWindow_platform: 0x7c88a070
+10/12/14 15:21:49.865: [0xfa0] IW_GL: GL_VENDOR: Intel Inc.
+10/12/14 15:21:49.865: [0xfa0] IW_GL: GL_RENDERER: Intel HD Graphics 4000 OpenGL Engine
+10/12/14 15:21:49.865: [0xfa0] IW_GL: GL_VERSION: 2.1 INTEL-8.28.30
+10/12/14 15:21:49.865: [0xfa0] IW_GL: GL properties reported by driver:
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 16
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_SHADER_COMPILER: 1
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_MAX_VERTEX_ATTRIBS: 16
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_MAX_VERTEX_UNIFORM_VECTORS: 4096
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_MAX_VARYING_VECTORS: 60
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_MAX_TEXTURE_IMAGE_UNITS: 16
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS: 16
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_MAX_FRAGMENT_UNIFORM_VECTORS: 4096
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_FORMAT: GL_RGBA
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_TYPE: GL_UNSIGNED_BYTE
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_MAX_RENDERBUFFER_SIZE: 16384
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_POINT_SIZE_MAX: 64
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_MAX_TEXTURE_SIZE: 16384
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_MAX_VIEWPORT_DIMS: (16384, 16384)
+10/12/14 15:21:49.865: [0xfa0] IW_GL: Supported GL_EXTENSIONS:
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_OES_packed_depth_stencil
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_EXT_texture_compression_s3tc
+10/12/14 15:21:49.865: [0xfa0] IW_GL:     GL_ARB_texture_env_combine
 
 
 QUICKCPP LOG: Marmalade Quick 1.1
@@ -287,1353 +287,121 @@ Taps:5
 Taps:6
 Taps:7
 Taps:8
-10/12/14 14:33:50.161: [0xfa0] IW_GL: Leaked Program with handle 2
-10/12/14 14:33:50.161: [0xfa0] IW_GL: Leaked Program with handle 5
-10/12/14 14:33:50.161: [0xfa0] IW_GL: Leaked Texture with handle 1
-10/12/14 14:33:50.161: [0xfa0] IW_GL: Leaked Texture with handle 2
-10/12/14 14:33:50.161: [0xfa0] IW_GL: Leaked Texture with handle 3
-10/12/14 14:33:50.161: [0xfa0] IW_GL: Leaked Texture with handle 4
-10/12/14 14:33:50.161: [0xfa0] IW_GL: Leaked VBO with handle 1
-10/12/14 14:33:50.161: [0xfa0] IW_GL: Leaked VBO with handle 2
-10/12/14 14:33:50.161: [0xfa0] IW_GL: Leaked VBO with handle 3
-10/12/14 14:33:50.161: [0xfa0] IW_GL: Leaked VBO with handle 4
-10/12/14 14:33:50.161: [0xfa0] IW_GL: Leaked VBO with handle 5
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 6
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 7
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 8
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 9
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 10
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 11
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 12
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 13
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 14
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 15
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 16
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 17
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 18
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 19
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 20
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 21
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 22
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 23
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 24
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 25
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 26
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 27
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 28
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 29
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 30
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 31
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 32
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 33
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 34
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 35
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 36
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 37
-10/12/14 14:33:50.162: [0xfa0] IW_GL: Leaked VBO with handle 38
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 39
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 40
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 41
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 42
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 43
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 44
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 45
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 46
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 47
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 48
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 49
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 50
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 51
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 52
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 53
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 54
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 55
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 56
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 57
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 58
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 59
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 60
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 61
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 62
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 63
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 64
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 65
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 66
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 67
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 68
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 69
-10/12/14 14:33:50.163: [0xfa0] IW_GL: Leaked VBO with handle 70
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 71
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 72
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 73
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 74
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 75
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 76
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 77
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 78
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 79
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 80
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 81
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 82
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 83
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 84
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 85
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 86
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 87
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 88
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 89
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 90
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 91
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 92
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 93
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 94
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 95
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 96
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 97
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 98
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 99
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 100
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 101
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 102
-10/12/14 14:33:50.164: [0xfa0] IW_GL: Leaked VBO with handle 103
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 104
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 105
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 106
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 107
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 108
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 109
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 110
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 111
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 112
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 113
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 114
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 115
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 116
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 117
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 118
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 119
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 120
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 121
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 122
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 123
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 124
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 125
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 126
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 127
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 128
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 129
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 130
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 131
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 132
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 133
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 134
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 135
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 136
-10/12/14 14:33:50.165: [0xfa0] IW_GL: Leaked VBO with handle 137
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 138
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 139
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 140
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 141
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 142
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 143
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 144
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 145
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 146
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 147
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 148
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 149
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 150
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 151
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 152
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 153
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 154
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 155
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 156
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 157
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 158
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 159
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 160
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 161
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 162
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 163
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 164
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 165
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 166
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 167
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 168
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 169
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 170
-10/12/14 14:33:50.166: [0xfa0] IW_GL: Leaked VBO with handle 171
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 172
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 173
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 174
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 175
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 176
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 177
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 178
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 179
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 180
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 181
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 182
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 183
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 184
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 185
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 186
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 187
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 188
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 189
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 190
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 191
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 192
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 193
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 194
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 195
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 196
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 197
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 198
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 199
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 200
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 201
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 202
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 203
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 204
-10/12/14 14:33:50.167: [0xfa0] IW_GL: Leaked VBO with handle 205
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 206
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 207
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 208
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 209
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 210
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 211
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 212
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 213
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 214
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 215
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 216
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 217
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 218
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 219
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 220
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 221
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 222
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 223
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 224
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 225
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 226
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 227
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 228
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 229
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 230
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 231
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 232
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 233
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 234
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 235
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 236
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 237
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 238
-10/12/14 14:33:50.168: [0xfa0] IW_GL: Leaked VBO with handle 239
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 240
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 241
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 242
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 243
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 244
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 245
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 246
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 247
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 248
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 249
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 250
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 251
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 252
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 253
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 254
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 255
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 256
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 257
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 258
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 259
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 260
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 261
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 262
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 263
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 264
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 265
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 266
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 267
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 268
-10/12/14 14:33:50.169: [0xfa0] IW_GL: Leaked VBO with handle 269
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 270
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 271
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 272
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 273
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 274
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 275
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 276
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 277
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 278
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 279
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 280
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 281
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 282
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 283
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 284
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 285
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 286
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 287
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 288
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 289
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 290
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 291
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 292
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 293
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 294
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 295
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 296
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 297
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 298
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 299
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 300
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 301
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 302
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 303
-10/12/14 14:33:50.170: [0xfa0] IW_GL: Leaked VBO with handle 304
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 305
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 306
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 307
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 308
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 309
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 310
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 311
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 312
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 313
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 314
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 315
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 316
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 317
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 318
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 319
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 320
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 321
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 322
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 323
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 324
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 325
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 326
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 327
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 328
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 329
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 330
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 331
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 332
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 333
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 334
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 335
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 336
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 337
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 338
-10/12/14 14:33:50.171: [0xfa0] IW_GL: Leaked VBO with handle 339
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 340
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 341
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 342
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 343
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 344
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 345
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 346
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 347
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 348
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 349
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 350
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 351
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 352
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 353
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 354
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 355
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 356
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 357
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 358
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 359
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 360
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 361
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 362
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 363
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 364
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 365
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 366
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 367
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 368
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 369
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 370
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 371
-10/12/14 14:33:50.172: [0xfa0] IW_GL: Leaked VBO with handle 372
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 373
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 374
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 375
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 376
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 377
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 378
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 379
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 380
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 381
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 382
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 383
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 384
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 385
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 386
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 387
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 388
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 389
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 390
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 391
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 392
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 393
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 394
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 395
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 396
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 397
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 398
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 399
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 400
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 401
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 402
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 403
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 404
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 405
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 406
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 407
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 408
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 409
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 410
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 411
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 412
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 413
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 414
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 415
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 416
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 417
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 418
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 419
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 420
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 421
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 422
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 423
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 424
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 425
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 426
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 427
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 428
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 429
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 430
-10/12/14 14:33:50.173: [0xfa0] IW_GL: Leaked VBO with handle 431
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 432
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 433
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 434
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 435
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 436
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 437
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 438
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 439
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 440
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 441
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 442
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 443
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 444
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 445
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 446
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 447
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 448
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 449
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 450
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 451
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 452
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 453
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 454
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 455
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 456
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 457
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 458
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 459
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 460
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 461
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 462
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 463
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 464
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 465
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 466
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 467
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 468
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 469
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 470
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 471
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 472
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 473
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 474
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 475
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 476
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 477
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 478
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 479
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 480
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 481
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 482
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 483
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 484
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 485
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 486
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 487
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 488
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 489
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 490
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 491
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 492
-10/12/14 14:33:50.174: [0xfa0] IW_GL: Leaked VBO with handle 493
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 494
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 495
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 496
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 497
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 498
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 499
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 500
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 501
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 502
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 503
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 504
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 505
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 506
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 507
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 508
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 509
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 510
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 511
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 512
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 513
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 514
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 515
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 516
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 517
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 518
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 519
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 520
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 521
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 522
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 523
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 524
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 525
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 526
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 527
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 528
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 529
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 530
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 531
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 532
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 533
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 534
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 535
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 536
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 537
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 538
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 539
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 540
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 541
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 542
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 543
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 544
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 545
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 546
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 547
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 548
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 549
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 550
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 551
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 552
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 553
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 554
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 555
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 556
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 557
-10/12/14 14:33:50.175: [0xfa0] IW_GL: Leaked VBO with handle 558
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 559
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 560
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 561
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 562
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 563
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 564
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 565
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 566
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 567
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 568
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 569
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 570
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 571
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 572
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 573
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 574
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 575
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 576
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 577
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 578
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 579
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 580
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 581
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 582
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 583
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 584
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 585
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 586
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 587
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 588
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 589
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 590
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 591
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 592
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 593
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 594
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 595
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 596
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 597
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 598
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 599
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 600
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 601
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 602
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 603
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 604
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 605
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 606
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 607
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 608
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 609
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 610
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 611
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 612
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 613
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 614
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 615
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 616
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 617
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 618
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 619
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 620
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 621
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 622
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 623
-10/12/14 14:33:50.176: [0xfa0] IW_GL: Leaked VBO with handle 624
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 625
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 626
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 627
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 628
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 629
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 630
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 631
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 632
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 633
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 634
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 635
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 636
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 637
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 638
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 639
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 640
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 641
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 642
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 643
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 644
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 645
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 646
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 647
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 648
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 649
-10/12/14 14:33:50.177: [0xfa0] IW_GL: Leaked VBO with handle 650
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 651
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 652
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 653
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 654
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 655
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 656
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 657
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 658
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 659
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 660
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 661
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 662
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 663
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 664
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 665
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 666
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 667
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 668
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 669
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 670
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 671
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 672
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 673
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 674
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 675
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 676
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 677
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 678
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 679
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 680
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 681
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 682
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 683
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 684
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 685
-10/12/14 14:33:50.180: [0xfa0] IW_GL: Leaked VBO with handle 686
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 687
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 688
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 689
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 690
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 691
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 692
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 693
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 694
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 695
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 696
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 697
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 698
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 699
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 700
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 701
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 702
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 703
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 704
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 705
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 706
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 707
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 708
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 709
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 710
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 711
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 712
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 713
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 714
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 715
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 716
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 717
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 718
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 719
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 720
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 721
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 722
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 723
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 724
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 725
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 726
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 727
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 728
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 729
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 730
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 731
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 732
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 733
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 734
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 735
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 736
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 737
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 738
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 739
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 740
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 741
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 742
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 743
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 744
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 745
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 746
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 747
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 748
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 749
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 750
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 751
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 752
-10/12/14 14:33:50.181: [0xfa0] IW_GL: Leaked VBO with handle 753
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 754
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 755
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 756
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 757
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 758
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 759
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 760
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 761
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 762
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 763
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 764
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 765
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 766
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 767
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 768
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 769
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 770
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 771
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 772
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 773
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 774
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 775
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 776
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 777
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 778
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 779
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 780
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 781
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 782
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 783
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 784
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 785
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 786
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 787
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 788
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 789
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 790
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 791
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 792
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 793
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 794
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 795
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 796
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 797
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 798
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 799
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 800
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 801
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 802
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 803
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 804
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 805
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 806
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 807
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 808
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 809
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 810
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 811
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 812
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 813
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 814
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 815
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 816
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 817
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 818
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 819
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 820
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 821
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 822
-10/12/14 14:33:50.182: [0xfa0] IW_GL: Leaked VBO with handle 823
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 824
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 825
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 826
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 827
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 828
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 829
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 830
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 831
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 832
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 833
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 834
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 835
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 836
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 837
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 838
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 839
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 840
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 841
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 842
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 843
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 844
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 845
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 846
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 847
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 848
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 849
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 850
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 851
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 852
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 853
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 854
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 855
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 856
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 857
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 858
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 859
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 860
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 861
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 862
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 863
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 864
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 865
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 866
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 867
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 868
-10/12/14 14:33:50.183: [0xfa0] IW_GL: Leaked VBO with handle 869
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 870
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 871
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 872
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 873
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 874
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 875
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 876
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 877
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 878
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 879
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 880
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 881
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 882
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 883
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 884
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 885
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 886
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 887
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 888
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 889
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 890
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 891
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 892
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 893
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 894
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 895
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 896
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 897
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 898
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 899
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 900
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 901
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 902
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 903
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 904
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 905
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 906
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 907
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 908
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 909
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 910
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 911
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 912
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 913
-10/12/14 14:33:50.184: [0xfa0] IW_GL: Leaked VBO with handle 914
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 915
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 916
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 917
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 918
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 919
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 920
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 921
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 922
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 923
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 924
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 925
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 926
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 927
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 928
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 929
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 930
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 931
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 932
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 933
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 934
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 935
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 936
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 937
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 938
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 939
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 940
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 941
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 942
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 943
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 944
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 945
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 946
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 947
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 948
-10/12/14 14:33:50.185: [0xfa0] IW_GL: Leaked VBO with handle 949
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 950
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 951
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 952
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 953
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 954
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 955
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 956
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 957
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 958
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 959
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 960
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 961
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 962
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 963
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 964
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 965
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 966
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 967
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 968
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 969
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 970
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 971
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 972
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 973
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 974
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 975
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 976
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 977
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 978
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 979
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 980
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 981
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 982
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 983
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 984
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 985
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 986
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 987
-10/12/14 14:33:50.186: [0xfa0] IW_GL: Leaked VBO with handle 988
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 989
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 990
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 991
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 992
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 993
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 994
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 995
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 996
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 997
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 998
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 999
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1000
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1001
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1002
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1003
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1004
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1005
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1006
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1007
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1008
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1009
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1010
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1011
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1012
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1013
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1014
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1015
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1016
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1017
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1018
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1019
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1020
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1021
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1022
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1023
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1024
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1025
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1026
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1027
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1028
-10/12/14 14:33:50.187: [0xfa0] IW_GL: Leaked VBO with handle 1029
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1030
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1031
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1032
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1033
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1034
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1035
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1036
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1037
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1038
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1039
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1040
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1041
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1042
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1043
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1044
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1045
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1046
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1047
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1048
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1049
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1050
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1051
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1052
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1053
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1054
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1055
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1056
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1057
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1058
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1059
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1060
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1061
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1062
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1063
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1064
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1065
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1066
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1067
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1068
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1069
-10/12/14 14:33:50.188: [0xfa0] IW_GL: Leaked VBO with handle 1070
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1071
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1072
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1073
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1074
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1075
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1076
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1077
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1078
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1079
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1080
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1081
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1082
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1083
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1084
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1085
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1086
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1087
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1088
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1089
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1090
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1091
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1092
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1093
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1094
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1095
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1096
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1097
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1098
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1099
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1100
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1101
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1102
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1103
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1104
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1105
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1106
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1107
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1108
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1109
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1110
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1111
-10/12/14 14:33:50.189: [0xfa0] IW_GL: Leaked VBO with handle 1112
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1113
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1114
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1115
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1116
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1117
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1118
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1119
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1120
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1121
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1122
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1123
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1124
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1125
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1126
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1127
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1128
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1129
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1130
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1131
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1132
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1133
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1134
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1135
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1136
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1137
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1138
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1139
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1140
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1141
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1142
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1143
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1144
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1145
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1146
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1147
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1148
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1149
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1150
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1151
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1152
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1153
-10/12/14 14:33:50.190: [0xfa0] IW_GL: Leaked VBO with handle 1154
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1155
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1156
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1157
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1158
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1159
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1160
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1161
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1162
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1163
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1164
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1165
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1166
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1167
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1168
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1169
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1170
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1171
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1172
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1173
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1174
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1175
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1176
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1177
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1178
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1179
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1180
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1181
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1182
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1183
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1184
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1185
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1186
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1187
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1188
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1189
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1190
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1191
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1192
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1193
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1194
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1195
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1196
-10/12/14 14:33:50.191: [0xfa0] IW_GL: Leaked VBO with handle 1197
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1198
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1199
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1200
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1201
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1202
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1203
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1204
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1205
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1206
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1207
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1208
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1209
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1210
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1211
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1212
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1213
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1214
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1215
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1216
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1217
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1218
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1219
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1220
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1221
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1222
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1223
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1224
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1225
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1226
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1227
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1228
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1229
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1230
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1231
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1232
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1233
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1234
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1235
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1236
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1237
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1238
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1239
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1240
-10/12/14 14:33:50.192: [0xfa0] IW_GL: Leaked VBO with handle 1241
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1242
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1243
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1244
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1245
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1246
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1247
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1248
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1249
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1250
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1251
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1252
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1253
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1254
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1255
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1256
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1257
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1258
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1259
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1260
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1261
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1262
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1263
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1264
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1265
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1266
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1267
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1268
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1269
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1270
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1271
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1272
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1273
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1274
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1275
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1276
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1277
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1278
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1279
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1280
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1281
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1282
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1283
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1284
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1285
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1286
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1287
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1288
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1289
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1290
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1291
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1292
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1293
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1294
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1295
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1296
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1297
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1298
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1299
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1300
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1301
-10/12/14 14:33:50.193: [0xfa0] IW_GL: Leaked VBO with handle 1302
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1303
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1304
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1305
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1306
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1307
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1308
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1309
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1310
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1311
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1312
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1313
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1314
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1315
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1316
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1317
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1318
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1319
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1320
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1321
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1322
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1323
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1324
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1325
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1326
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1327
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1328
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1329
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1330
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1331
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1332
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1333
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1334
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1335
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1336
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1337
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Leaked VBO with handle 1338
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Terminating EGL...
-10/12/14 14:33:50.194: [0xfa0] IW_GL: Terminating EGL... Done
-COCOS2DX LOG: cocos2d: deallocing CCDirector 0x64db2f8
+Taps:9
+Taps:10
+Taps:11
+Taps:12
+Taps:13
+Taps:14
+Taps:15
+10/12/14 15:22:02.030: [0xfa0] IW_GL: Leaked Program with handle 2
+10/12/14 15:22:02.030: [0xfa0] IW_GL: Leaked Program with handle 5
+10/12/14 15:22:02.030: [0xfa0] IW_GL: Leaked Texture with handle 1
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked Texture with handle 2
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked Texture with handle 3
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked Texture with handle 4
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked Texture with handle 5
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 1
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 2
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 3
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 4
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 5
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 6
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 7
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 8
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 9
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 10
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 11
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 12
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 13
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 14
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 15
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 16
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 17
+10/12/14 15:22:02.031: [0xfa0] IW_GL: Leaked VBO with handle 18
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 19
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 20
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 21
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 22
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 23
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 24
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 25
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 26
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 27
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 28
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 29
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 30
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 31
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 32
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 33
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 34
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 35
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 36
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 37
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 38
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 39
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 40
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 41
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 42
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 43
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 44
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 45
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 46
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 47
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 48
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 49
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 50
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 51
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 52
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 53
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 54
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 55
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 56
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 57
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 58
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 59
+10/12/14 15:22:02.032: [0xfa0] IW_GL: Leaked VBO with handle 60
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 61
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 62
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 63
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 64
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 65
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 66
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 67
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 68
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 69
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 70
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 71
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 72
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 73
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 74
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 75
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 76
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 77
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 78
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 79
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 80
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 81
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 82
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 83
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 84
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 85
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 86
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 87
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 88
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 89
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 90
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 91
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 92
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 93
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 94
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 95
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 96
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 97
+10/12/14 15:22:02.033: [0xfa0] IW_GL: Leaked VBO with handle 98
+10/12/14 15:22:02.034: [0xfa0] IW_GL: Terminating EGL...
+10/12/14 15:22:02.034: [0xfa0] IW_GL: Terminating EGL... Done
+COCOS2DX LOG: cocos2d: deallocing CCDirector 0x64722f8
 COCOS2DX LOG: cocos2d: cocos2d-2.1beta3-x-2.1.0
-COCOS2DX LOG: cocos2d: deallocing CCDirector 0x64e4bd8
+COCOS2DX LOG: cocos2d: deallocing CCDirector 0x659fe88
 -- END TRACE --
