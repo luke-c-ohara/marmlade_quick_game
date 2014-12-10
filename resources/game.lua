@@ -104,6 +104,24 @@ function updater()
   if player.y < 0 then
     gameover()
   end
+
+  if (enemyArray[1]:getSprite().x + enemyArray[1]:getSprite().w) + 30 < 0 then
+      local y = math.random(director.displayCenterY - 350, director.displayCenterY - 100)
+      enemyArray[1]:getSprite().physics:setTransform(director.displayWidth + enemyArray[1]:getSprite().w, y, 0)
+      enemyArray[2]:getSprite().physics:setTransform(director.displayWidth + enemyArray[2]:getSprite().w, y+heightAdder, 0)
+  end
+
+  if (enemyArray[3]:getSprite().x + enemyArray[3]:getSprite().w) + 30 < 0 then
+    local y = math.random(director.displayCenterY - 350, director.displayCenterY - 100)
+    enemyArray[3]:getSprite().physics:setTransform(director.displayWidth + enemyArray[3]:getSprite().w, y, 0)
+    enemyArray[4]:getSprite().physics:setTransform(director.displayWidth + enemyArray[4]:getSprite().w, y+heightAdder, 0)
+  end
+
+  if (enemyArray[5]:getSprite().x + enemyArray[5]:getSprite().w) + 30 < 0 then
+    local y = math.random(director.displayCenterY - 350, director.displayCenterY - 100)
+    enemyArray[5]:getSprite().physics:setTransform(director.displayWidth + enemyArray[5]:getSprite().w, y, 0)
+    enemyArray[6]:getSprite().physics:setTransform(director.displayWidth + enemyArray[6]:getSprite().w, y+heightAdder, 0)
+  end
 end
 
 system:addEventListener("update", updater)
