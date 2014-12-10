@@ -3,63 +3,17 @@ require("class")
 require("object")
 
 local gamePlaying = false
-local gameTaps = 0
+local gameTaps 
 physics:setGravity(0, -980*1.5)
-local maxEnemies = 6
-local heightAdder = 750
-local widthAdder = 600
-
+local maxEnemies 
+local heightAdder 
+local widthAdder 
+local background 
+local player 
+local enemyArray 
+local startGameHelp 
 
 gameScene = director:createScene()
-
--- adds background
-local background = director:createSprite(director.displayCenterX, director.displayCenterY, "gfx/background.png")
-
-background.xAnchor = 0.5
-background.yAnchor = 0.5
-background.rotation = 180
-
--- adds users image
-local player = director:createSprite(director.displayCenterX/2, director.displayCenterY + (director.displayCenterY/2), "gfx/player.png")
-player.xAnchor = 0.5
-player.xAnchor = 0.5
-player.name ="player"
-
---creating 6 enemies
-local yx = math.random(director.displayCenterY - 350, director.displayCenterY - 100)
-local yy = math.random(director.displayCenterY - 350, director.displayCenterY - 100)
-local yz = math.random(director.displayCenterY - 350, director.displayCenterY - 100)
-
-local enemyArray = {}
-for i=1,maxEnemies
-  do
-  enemyArray[i] = object.new(i, "gfx/enemy.png")
-  enemyArray[i]:getSprite().xAnchor = 0.5
-  enemyArray[i]:getSprite().yAnchor = 0.5
-  enemyArray[i]:getSprite().name = "enemy"
-  enemyArray[i]:getSprite().x = director.displayCenterX
-  physics:addNode(enemyArray[i]:getSprite(), {type="kinematic"})
-end
-
--- sets enemys up as pairs on top and bottom of the screen.
-local a = enemyArray[1]:getSprite().x
-local b = enemyArray[2]:getSprite().x
-local c = enemyArray[3]:getSprite().x - ((director.displayCenterX / 2)*2)
-local d = enemyArray[4]:getSprite().x - ((director.displayCenterX / 2)*2)
-local e = enemyArray[5]:getSprite().x + ((director.displayCenterX / 2)*2)
-local f = enemyArray[6]:getSprite().x + ((director.displayCenterX / 2)*2)
-
--- gets columns from the left to reappear on the right.
-enemyArray[1]:getSprite().physics:setTransform(a + widthAdder, yx, 0)
-enemyArray[2]:getSprite().physics:setTransform(b + widthAdder, yx+heightAdder, 0)
-enemyArray[3]:getSprite().physics:setTransform(c + widthAdder, yy, 0)
-enemyArray[4]:getSprite().physics:setTransform(d + widthAdder, yy+heightAdder, 0)
-enemyArray[5]:getSprite().physics:setTransform(e + widthAdder, yz, 0)
-enemyArray[6]:getSprite().physics:setTransform(f + widthAdder, yz+heightAdder, 0)
-
--- Start game label 
-local startGameHelp = director:createLabel(0, director.displayCenterY, "Tap to start!")
-startGameHelp.color = color.red
 
 -- looking for collison events
 function hit(event)
@@ -91,8 +45,6 @@ function systemEvents(event)
   end
 end
 
-system:addEventListener("touch", systemEvents)
-
 -- game code, defines what the game does
 function init()
   -- remove help label
@@ -101,7 +53,6 @@ function init()
   for i=1,maxEnemies
     do
       enemyArray[i]:getSprite().physics:setLinearVelocity(-160, 0)
-      enemyArray[i]:getSprite():addEventListener("collision", hit)
   end
   gamePlaying = true
 end
@@ -152,4 +103,69 @@ function updater()
   end
 end
 
-system:addEventListener("update", updater)
+function gameScene:setUp(event)
+  gameTaps = 0
+
+  background = director:createSprite(director.displayCenterX, director.displayCenterY, "gfx/background.png")
+  background.xAnchor = 0.5
+  background.yAnchor = 0.5
+  background.rotation = 180
+
+  player = director:createSprite(director.displayCenterX/2, director.displayCenterY + (director.displayCenterY/2), "gfx/player.png")
+  player.xAnchor = 0.5
+  player.xAnchor = 0.5
+  player.name ="player"
+
+  startGameHelp = director:createLabel(0, director.displayCenterY, "Tap to start!")
+  startGameHelp.color = color.red
+
+  maxEnemies = 6
+  heightAdder = 750
+  widthAdder = 600
+
+  enemyArray = {}
+  for i=1,maxEnemies
+    do
+    enemyArray[i] = object.new(i, "gfx/enemy.png")
+    enemyArray[i]:getSprite().xAnchor = 0.5
+    enemyArray[i]:getSprite().yAnchor = 0.5
+    enemyArray[i]:getSprite().name = "enemy"
+    enemyArray[i]:getSprite().x = director.displayCenterX
+    physics:addNode(enemyArray[i]:getSprite(), {type="kinematic"})
+  end
+
+  --creating 6 enemies
+  local yx = math.random(director.displayCenterY - 350, director.displayCenterY - 100)
+  local yy = math.random(director.displayCenterY - 350, director.displayCenterY - 100)
+  local yz = math.random(director.displayCenterY - 350, director.displayCenterY - 100)
+
+  -- sets enemys up as pairs on top and bottom of the screen.
+  local a = enemyArray[1]:getSprite().x
+  local b = enemyArray[2]:getSprite().x
+  local c = enemyArray[3]:getSprite().x - ((director.displayCenterX / 2)*2)
+  local d = enemyArray[4]:getSprite().x - ((director.displayCenterX / 2)*2)
+  local e = enemyArray[5]:getSprite().x + ((director.displayCenterX / 2)*2)
+  local f = enemyArray[6]:getSprite().x + ((director.displayCenterX / 2)*2)
+
+  -- gets columns from the left to reappear on the right.
+  enemyArray[1]:getSprite().physics:setTransform(a + widthAdder, yx, 0)
+  enemyArray[2]:getSprite().physics:setTransform(b + widthAdder, yx+heightAdder, 0)
+  enemyArray[3]:getSprite().physics:setTransform(c + widthAdder, yy, 0)
+  enemyArray[4]:getSprite().physics:setTransform(d + widthAdder, yy+heightAdder, 0)
+  enemyArray[5]:getSprite().physics:setTransform(e + widthAdder, yz, 0)
+  enemyArray[6]:getSprite().physics:setTransform(f + widthAdder, yz+heightAdder, 0)
+
+  system:addEventListener("touch", systemEvents)
+  system:addEventListener("update", updater)
+
+  for i=1, maxEnemies
+    do
+    enemyArray[i]:getSprite():addEventListener("collision", hit)
+  end
+end
+
+function gameScene:tearDown(event)
+
+end
+
+gameScene:addEventListener({"setUp", "tearDown"}, gameScene)
