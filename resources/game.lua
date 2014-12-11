@@ -17,21 +17,6 @@ local menuButton
 
 gameScene = director:createScene()
 
--- looking for collison events
-function hit(event)
-  if event.phase == "began" then
-    if event.nodeA.name == "player" then
-      if event.nodeB.name == "enemy" then
-        gameover()
-      end
-    elseif event.nodeB.name == "player" then
-      if event.nodeA.name == "enemy" then
-        gameover()
-      end
-    end
-  end
-end
-
 -- Event listener: touch
 function systemEvents(event)
   if event.phase == "began" then
@@ -75,12 +60,18 @@ function gameover()
   resetButton.alpha = 1
 end
 
+function pressReset(event)
+  if event.phase == "ended" then
+    reset()
+  end
+end
+
 function resetEnemies()
   for i=1,maxEnemies
     do 
     enemyArray[i]:getSprite().x = director.displayCenterX -- Move enemies back to start pos
   end
-  
+
   --creating 6 enemies
   local yx = math.random(director.displayCenterY - 350, director.displayCenterY - 100)
   local yy = math.random(director.displayCenterY - 350, director.displayCenterY - 100)
@@ -119,11 +110,6 @@ function reset()
   resetEnemies()
 end
 
-function pressReset(event)
-  if event.phase == "ended" then
-    reset()
-  end
-end
 -- creates the flap(jump) and stops the player moving out of the top of the screen
 function jump()
   if player.y < director.displayHeight and player.y > 0 then
@@ -159,6 +145,21 @@ function updater()
   end
 end
 
+-- looking for collison events
+function hit(event)
+  if event.phase == "began" then
+    if event.nodeA.name == "player" then
+      if event.nodeB.name == "enemy" then
+        gameover()
+      end
+    elseif event.nodeB.name == "player" then
+      if event.nodeA.name == "enemy" then
+        gameover()
+      end
+    end
+  end
+end
+
 function goToMenu(event)
   if event.phase == 'ended' and menuButton.alpha == 1 then
     switchToScene("menu")
@@ -182,24 +183,12 @@ function gameScene:setUp(event)
   startGameHelp = director:createLabel(0, director.displayCenterY, "Tap to start!")
   startGameHelp.color = color.red
 
-  menuButton = director:createLabel( {
-    x=0, y= -90, hAlignment="centre", vAlignment="middle", text="MENU"
-    } )
-  menuButton.color = color.blue
-
-  resetButton = director:createLabel( {
-    x=0, y= -50, hAlignment="centre", vAlignment="middle", text="RESET"
-    } )
-  resetButton.color = color.blue
-
-  menuButton.alpha = 0
-  resetButton.alpha = 0
-
   maxEnemies = 6
   heightAdder = 750
   widthAdder = 600
 
   enemyArray = {}
+
   for i=1,maxEnemies
     do
     enemyArray[i] = object.new(i, "gfx/enemy.png")
@@ -210,10 +199,21 @@ function gameScene:setUp(event)
     physics:addNode(enemyArray[i]:getSprite(), {type="kinematic"})
   end
 
-  resetEnemies()
+  menuButton = director:createLabel( {
+    x=0, y= -90, hAlignment="centre", vAlignment="middle", text="MENU"
+    } )
+  menuButton.color = color.blue
+  menuButton.alpha = 0
+
+  resetButton = director:createLabel( {
+    x=0, y= -50, hAlignment="centre", vAlignment="middle", text="RESET"
+    } )
+  resetButton.color = color.blue
+  resetButton.alpha = 0
 
   menuButton:addEventListener("touch", goToMenu)
   resetButton:addEventListener("touch", pressReset)
+  resetEnemies()
 
   system:addEventListener("touch", systemEvents)
   system:addEventListener("update", updater)
@@ -229,9 +229,7 @@ function gameScene:tearDown(event)
   dbg.print('game scene tear down')
  
   background = background:removeFromParent()
- 
   player = player:removeFromParent() 
- 
   startGameHelp = startGameHelp:removeFromParent()
  
   heightAdder = nil
